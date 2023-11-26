@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>A Basic To-Do webApp</title>  
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>A Basic To-Do Web App</h1>
+  </header>
+  
+  <form id="new-task-form">
+    <input 
+      type="text" 
+      name="new-task-input" 
+      id="new-task-input" 
+      placeholder="add you new?" />
+    <input 
+      type="submit"
+      id="new-task-submit" 
+      value="Add task" />
+  </form>
+  
+  <main>
+    
+    <section class="task-list">
+      <h2>Tasks</h2>
+      
+      <div id="tasks">
+
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+
